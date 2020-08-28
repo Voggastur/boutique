@@ -31,18 +31,3 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name
-
-
-""" Full Shell Command for has_sizes
-from products.models import Product
-kdbb = ['kitchen_dining', 'bed_bath']
-clothes = Product.objects.exclude(category__name__in=kdbb)
-clothes.count()
-for item in clothes:
-	item.has_sizes = True
-	item.save()
-
-Product.objects.filter(has_sizes=True)
-
-exit()
-"""
