@@ -2,7 +2,7 @@
 
 Welcome,
 
-This is my CI boutique ado project making use the django framework.
+This is my CI boutique ado project making use of the django framework.
 
 Technologies used for this project include HTML, CSS, Javascript, Python, Django and Bootstrap.
 The project also handles user authentication and payment via Stripe integration (test keys).
